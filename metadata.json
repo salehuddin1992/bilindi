@@ -1,0 +1,6 @@
+{
+  "name": "BilindiWall",
+  "description": "Dinding Pembelajaran Sekolah untuk belajar, berbagi, dan berkolaborasi secara interaktif antara siswa, guru, dan sekolah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

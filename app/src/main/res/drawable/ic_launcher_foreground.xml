@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- BilindiWall 3D Stylized Ribbon Letter "B" (Scaled strictly inside 66dp Material Safe Zone) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.80"
+        android:scaleY="0.80">
+
+    <!-- Outer Main Loop of Letter B -->
+    <path
+        android:pathData="M37,28 C45,21 61,20 71,28 C79,34 81,43 75,50 C71,53 66,54 62,54 C68,54 75,57 78,63 C82,71 78,81 68,86 C58,91 42,89 35,82 C30,77 28,70 31,63 C33,59 37,56 41,56 C45,56 47,59 46,63 C44,68 46,73 51,76 C57,79 66,78 69,73 C72,68 70,62 64,60 C58,58 50,60 44,60 C40,60 36,57 36,53 C36,49 40,46 45,46 C52,46 62,47 66,42 C70,37 67,31 61,28 C55,25 45,26 40,30 C36,33 34,38 34,42 C34,46 30,48 27,45 C24,41 24,35 29,31 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="270"
+                android:startColor="#1E40AF"
+                android:centerColor="#0284C7"
+                android:endColor="#10B981"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Top Spine and Ribbon Fold of B -->
+    <path
+        android:pathData="M33,32 C38,24 50,22 62,23 C73,24 81,31 81,41 C81,49 74,55 64,56 C57,56 50,53 46,50 C41,46 36,41 33,32 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:startColor="#2563EB"
+                android:endColor="#06B6D4"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Bottom Swirl of B -->
+    <path
+        android:pathData="M48,58 C56,57 66,57 73,61 C80,66 82,75 77,82 C71,88 59,90 49,87 C39,83 34,74 36,65 C38,58 43,58 48,58 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="135"
+                android:startColor="#0284C7"
+                android:centerColor="#0D9488"
+                android:endColor="#10B981"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Hollow Fill - Crisp White background for Botanical Clove Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,36 C47,32 55,32 60,35 C64,38 64,44 60,47 C55,50 47,49 44,45 C41,42 41,38 43,36 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,61 C51,59 63,59 67,64 C70,68 68,76 62,79 C56,82 48,80 44,75 C42,70 41,63 44,61 Z" />
+
+    <!-- Clove Stalks (Cengkeh) Inside the B Cavity -->
+    <!-- Center Stalk -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M53.5,43 L54.5,43 L54.8,68 L53.2,68 Z" />
+    <!-- Left Stalk -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M47.5,47 Q51,57 53.5,67 L52.2,67.5 Q49.8,57.5 46.2,47.5 Z" />
+    <!-- Right Stalk -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M60.5,47 Q57,57 54.5,67 L55.8,67.5 Q58.2,57.5 61.8,47.5 Z" />
+
+    <!-- Center Clove Bud (Head) -->
+    <path
+        android:pathData="M54,36 C57,36 59,38 59,41 C59,44 57,46 54,46 C51,46 49,44 49,41 C49,38 51,36 54,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:startColor="#16A34A"
+                android:endColor="#84CC16"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <!-- Center Clove Sepals/Calyx -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M51,44 L54,46.5 L57,44 L55,47 L53,47 Z" />
+
+    <!-- Left Clove Bud -->
+    <path
+        android:pathData="M46.5,41 C49,41 50.8,42.8 50.8,45 C50.8,47.2 49,49 46.5,49 C44,49 42.2,47.2 42.2,45 C42.2,42.8 44,41 46.5,41 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:startColor="#15803D"
+                android:endColor="#65A30D"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M44.5,47.5 L46.5,49.5 L48.8,47.5 L47.5,50 L45.8,50 Z" />
+
+    <!-- Right Clove Bud -->
+    <path
+        android:pathData="M61.5,41 C64,41 65.8,42.8 65.8,45 C65.8,47.2 64,49 61.5,49 C59,49 57.2,47.2 57.2,45 C57.2,42.8 59,41 61.5,41 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="90"
+                android:startColor="#15803D"
+                android:endColor="#65A30D"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M59.2,47.5 L61.5,49.5 L63.5,47.5 L62.2,50 L60.5,50 Z" />
+
+    <!-- Botanical Leaves at Base -->
+    <!-- Left Leaf -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,68 C49,66 42,65 39,69 C37,72 41,75 46,74 C50,73 53,70 54,68 Z" />
+    <!-- Right Leaf -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M54,68 C59,66 66,65 69,69 C71,72 67,75 62,74 C58,73 55,70 54,68 Z" />
+
+    <!-- Leaf Vein Highlight -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M42,71 Q48,70 53,68 Q47,72 42,71 Z" />
+    </group>
+</vector>
+
